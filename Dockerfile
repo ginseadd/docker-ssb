@@ -1,2 +1,2 @@
-FROM node:7
-RUN npm install -g scuttlebot
+FROM node:9
+RUN npm install -g scuttlebot --unsafe
